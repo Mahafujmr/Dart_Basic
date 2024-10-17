@@ -20,7 +20,7 @@ else {
 
 
 void main(){
-  int myage =15;
+  int myage =14;
   if(myage>25){
     print('job dibo');
   }else if(myage> 20){

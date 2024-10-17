@@ -1,7 +1,29 @@
 // problem 01- how to use seven days name and make a programme use switch case
 
+/// if else if ar alternative (switch case ) use kora hoi
+/*
+switch case syntax -
+data type name - variable name= value;
+switch (variable expression){
+case value 1 :
+  print( body of value );
+   break;
+
+   case 2 :
+   print (body of value 2);
+   break;
+
+   case 3:
+   print(body of value 3);
+   break;
+
+     // condition match na korla (default) use kora hoi
+     default :
+      print(body of case);
+ */
+
 void main(){
-  int day =7;
+  int day =10;
   switch (day){
     case 1:
       print('saturday');
