@@ -1,4 +1,24 @@
 
+/// onk gula decision make korte (if else if ) use kora hoi
+/*
+if else if syntax
+data type name - variable name = value;
+if ( condition1 ){
+  print(// body of if);
+}
+else if ( condition2 ){
+  print(// body of if);
+}
+.
+.// onk conditon niya kaj kora - if else if statement
+.
+else {
+ print( // statement);
+}
+
+ */
+
+
 void main(){
   int myage =15;
   if(myage>25){
