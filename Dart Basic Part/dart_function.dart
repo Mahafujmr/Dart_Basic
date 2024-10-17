@@ -32,10 +32,23 @@ main() {
   print('interview');
   // addition ar moddhe ja valu call korte hobe sa gula Argument bola
   addition(50,40 ,10);  /// function call
-  addition(10, 20, 10); // data type int- value - argument
+  addition(10, 20, 10); /// CAll ( function call)
+  // data type int- value - argument
   // joto essa additon function add kora tar moddhe value add kora jabe
+  welcomeYourName('Shakib');
+  /// main function ar moddhe welcomeyourname function ar maje Argument pass kora hoyase
 
+  print( subtract(10, 5));
+
+  // data type int  // variable name-add
+  // new function - subtract ar moddhe value diyachi
+  // print function use kora add call kora hoyache
+  int add = subtract(20, 10);
+  print(add);
+  addition(add, 10, 5);
 }
+
+
 
 // function - name , ()- parentheses, {}- curly braces
 // how to declare function?
@@ -47,6 +60,16 @@ welcome() {
   print(50*20);
 }
 
+
+
+/// welcome function ar moddhe Paramater pass korano hoyache
+welcomeYourName(String name){
+  print('hello $name');
+  print('welcome office');
+}
+
+
+
 /// addition function ka main function ar moddhe call korate hobe
 /// addition function ar moddhe value pass korale sa gula paramater bola
 addition( int num1, int num2 , int num3 ){ // paramater
@@ -55,6 +78,20 @@ addition( int num1, int num2 , int num3 ){ // paramater
   print("Result is $result");
   print('pass done for hsc');
 }
+
+
+/// return keyword use kora function call kora
+
+// new function name type - subtract
+subtract(int a, int b){
+  int result = a -b;
+  return result;
+}
+
+
+
+
+
 
 /// data type int
 /// additon function ar mooddhe extra value nila sa gula ka bola paramater
